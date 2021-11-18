@@ -1,0 +1,95 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+
+body {
+    background-color:black;
+}
+
+.header {
+    text-align:center;
+}
+
+
+.header h1 {
+    font-size:70px;
+    text-transform:uppercase;
+    font-family: 'Lora', serif;
+    animation:animate 1s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+    from {
+        text-shadow: 0 0 20px #fff;
+    }
+    to {
+        text-shadow: 0 0 30px #fff,
+        0 0 10px #fff;
+    }
+}
+
+#sidebar {
+    text-align:center;
+}
+
+
+#sidebar ul li {
+    display:inline-block;
+    padding:10px;
+}
+
+#sidebar ul li a {
+    text-decoration:none;
+    color:white;
+    font-family: 'Lora', serif;
+    font-size:16px;
+}
+
+#sidebar ul li a:hover {
+    animation:animate 1s infinite alternate;
+}
+
+p {
+    color:white;
+    font-family:'Lora', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
