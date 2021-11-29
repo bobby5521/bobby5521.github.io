@@ -57,7 +57,17 @@ body {
     animation:animate 1s infinite alternate;
 }
 
-p {
+#project-objective p  {
+    color:white;
+    font-family:'Lora', serif;
+}
+
+#about-us p{
+    color:white;
+    font-family:'Lora', serif;
+}
+
+#endeavor-001 p{
     color:white;
     font-family:'Lora', serif;
 }
